@@ -1,0 +1,131 @@
+.reg_header {
+	background-color: #2D2A26;
+	display: flex;
+	color: #D2D5D9;
+}
+
+.header_image {
+	background: url("appdirect_logo.png") no-repeat;
+	display: block;
+	height: 30px;
+	padding-left: 50px;
+	margin: 10px;
+}
+
+.header_marketplace {
+	padding-left: 20px;
+}
+
+.header_account {
+	padding-left: 950px;
+}
+
+.dropdown-manage {
+	border: none;
+	background-color: #2D2A26;
+	color: #D2D5D9;
+	font-size: 13px;
+}
+
+.form-style {
+	display: flex;
+}
+
+.form-primary {
+	border: 1px solid;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-left: 200px;
+	padding-left: 50px;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 20px;
+	width: 500px;
+}
+
+.form-dashboard {
+	border: 1px solid;
+	margin-left: 100px;
+	margin-top: 30px;
+	width: 300px;
+	text-align: center;
+	overflow: scroll;
+}
+
+input {
+	padding: 10px;
+	margin: 20px;
+}
+
+button {
+	background-color: blue;
+	color: white;
+}
+
+.reset_class {
+	border: 0px;
+	background-color: #2a3d8c;
+	color: white;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.register_class {
+	border: 0px;
+	background-color: #3f8c2a;
+	color: white;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.dashboard {
+	list-style: none;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	background-color: #d6d4d4;
+}
+
+.footer_image {
+	background: url("appdirect_footer.png") no-repeat;
+	background-size: 30%;
+	display: block;
+	height: 30px;
+	width: 30px;
+	size: 80%;
+	padding-left: 30px;
+}
+
+.footer-list {
+	list-style-type: none;
+	display: flex;
+	font-family: Arial;
+	font-size: 10px;
+	margin: 0px;
+	border: 0px;
+}
+
+.footer-list-first {
+	margin-top: -30px;
+}
+
+.footer-list-sub {
+	margin-top: -30px;
+	padding-left: 50px;
+}
+
+.footer-dropdown {
+	padding-left: 700px;
+	margin-top: -33px;
+}
+
+.dropdown {
+	border: none;
+	background-color: white;
+}

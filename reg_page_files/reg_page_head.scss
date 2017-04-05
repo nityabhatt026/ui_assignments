@@ -1,0 +1,31 @@
+$color_1: #D2D5D9;
+$background_color_1: #2D2A26;
+
+.reg_header {
+	background-color: $background_color_1;
+	display: flex;
+	color: $color_1;
+}
+
+.header_image {
+	background: url("appdirect_logo.png") no-repeat;
+	display: block;
+	height: 30px;
+	padding-left: 50px;
+	margin: 10px;
+}
+
+.header_marketplace {
+	padding-left: 20px;
+}
+
+.header_account {
+	padding-left: 950px;
+}
+
+.dropdown-manage {
+	border: none;
+	background-color: $background_color_1;
+	color: $color_1;
+	font-size: 13px;
+}
