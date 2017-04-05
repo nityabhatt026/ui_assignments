@@ -1,0 +1,40 @@
+$font_family_1: Arial;
+$background_color_1: white;
+
+.footer_image {
+	background: url("appdirect_footer.png") no-repeat;
+	background-size: 30%;
+	display: block;
+	height: 30px;
+	width: 30px;
+	size: 80%;
+	padding-left: 30px;
+}
+
+.footer-list {
+	list-style-type: none;
+	display: flex;
+	font-family: $font_family_1;
+	font-size: 10px;
+	margin: 0px;
+	border: 0px;
+}
+
+.footer-list-first {
+	margin-top: -30px;
+}
+
+.footer-list-sub {
+	margin-top: -30px;
+	padding-left: 50px;
+}
+
+.footer-dropdown {
+	padding-left: 700px;
+	margin-top: -33px;
+}
+
+.dropdown {
+	border: none;
+	background-color: $background_color_1;
+}
